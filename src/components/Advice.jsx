@@ -36,7 +36,9 @@ export default function Advice() {
 
 	return (
 		<section className="relative px-6 py-11 text-center md:px-12">
-			<h1 className="mb-5 text-NeonGreen">Advice # {adviceData.id}</h1>
+			<h1 className="mb-5 font-semibold uppercase tracking-widest text-NeonGreen">
+				Advice # {adviceData.id}
+			</h1>
 			<p className="text-[28px] font-extrabold text-LightCyan">❝{adviceData.advice}❞</p>
 			<picture className="mt-5 flex justify-center">
 				<source media="(min-width: 500px)" srcSet="images/pattern-divider-desktop.svg" />
