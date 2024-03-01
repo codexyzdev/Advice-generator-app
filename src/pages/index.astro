@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro"
+import Advice from "../components/Advice.jsx"
+---
+
+<Layout title="Welcome to Astro.">
+	<main class="mx-4 max-w-[540px] rounded-md bg-DarkGrayishBlue md:mx-0">
+		<Advice client:load />
+	</main>
+</Layout>
